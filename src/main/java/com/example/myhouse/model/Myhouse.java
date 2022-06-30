@@ -35,7 +35,7 @@ public class Myhouse {
     private int quantityBedroom;
     @Range(min=1,max=3,message = "Quantity between (1-3) please!")
     private int quantityBathroom;
-//    @Pattern(regexp = ".*((.png)|(.jpg))" , message = "Chỉ được upfile png hoặc jpg")
+    @Pattern(regexp = ".*((.png)|(.jpg))" , message = "Chỉ được upfile png hoặc jpg")
     private String image;
     private double price;
 
